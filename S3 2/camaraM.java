@@ -1,9 +1,12 @@
+
 import java.util.Scanner;
+import java.util.Locale;
 public class camaraM {
 
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        input.useLocale(Locale.US);
         
         int puntos = 0;
 
