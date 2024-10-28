@@ -16,4 +16,4 @@ public class hextodec {
             System.out.println(hexToDec("ABC")); 
         }
     }
-}
+
